@@ -79,3 +79,4 @@ Authentication
 - このように脆弱性の種類と脆弱性が重なった場合だけ攻撃が通ることを覚えておく．
 - （再現時の注意点）
 - 脆弱性がいくつも重なっていることを意識する．
+- BurpのIntruderの設定でMin Integer digitsとMax Integer digitsをそれぞれ桁数の4にしておく．
