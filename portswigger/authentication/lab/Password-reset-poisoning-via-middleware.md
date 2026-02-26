@@ -70,4 +70,9 @@ Authentication
 ---
 
 ## メモ（任意）
-- （再現時の注意点）
+通常HOSTヘッダーを書き換えてもロードバランサーがルーティングのためにチェックするため，途中ではじかれる．
+X-Forwarded-Hostはもともと内部用のIPアドレスが変わったり，ヘッダーの情報が変わったときのためのメモの役割である．
+X-Forwarded-Host: hacker.com （超定番）
+X-Host: hacker.com
+X-Forwarded-Server: hacker.com
+Forwarded: host=hacker.com
