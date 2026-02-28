@@ -1,8 +1,8 @@
 # Lab: User ID controlled by request parameter with data leakage in redirect
 
 ## 概要
--このLabではバックエンドでURLのクエリを偽造したものをはじいてリダイレクトを促す際に生じる脆弱性
--（EAR：Execution After Redirect）を扱う。  
+-このLabではバックエンドでURLのクエリを偽造したものをはじいてリダイレクトを促す際に生じる脆弱性（EAR：Execution After Redirect）
+を扱う。  
 - 目的はこの脆弱性を理解し、実際の開発で起こりうるのをイメージすることである。
 
 ---
